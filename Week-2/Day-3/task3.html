@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truncate String</title>
+</head>
+<style>
+    input{
+        width: 80%;
+        display: flex;
+        padding:1%;
+        margin-bottom: 10px;
+        font-size:larger;
+        color: black;
+        font-weight: bolder;
+    }
+    button{
+        margin:1% 0 0 30%;
+        padding: 1%;
+        border: none;
+        border-radius: 20px;
+        background-color:blue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .highlightedString{
+        font-size: 30px;
+        
+    }
+</style>
+<body>
+    <input type="text" id="main-string" placeholder="enter the string">
+    <input type="text" id="sub-string" placeholder="enter the substring to highlight">
+    <button onclick="highlightSearchTerm()">Highlight</button>
+    <div class="highlightedString"></div>
+</body>
+<script src="task3.js"></script>
+</html>

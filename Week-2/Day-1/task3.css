@@ -1,0 +1,32 @@
+body,html{
+    height: 100%;
+    background-color:white
+}
+label{
+    display:flex;
+}
+.details-button{
+    color: red;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+.details{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.values{
+    font-size: 30px;
+    display: block;
+    text-align: end;
+    font-weight: bold;
+    color: rgb(0,0,0);
+}
+
+input{
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+}

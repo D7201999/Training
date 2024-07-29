@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      input{
+        width: 50%;
+        padding:1%;
+        margin-bottom: 10px;
+        font-size:larger;
+        color: black;
+        font-weight: bolder;
+    }
+    button{
+        padding: 1%;
+        border: none;
+        border-radius: 20px;
+        background-color:blue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        width: 190px;
+    }
+    .result,span{
+        margin-left: 10%;
+        font-size: 30px;
+        
+    }
+</style>
+<body>
+<input type="text" id="num" placeholder="enter the number to ConvertToString">
+<button onclick="convertNumberToString()">ConvertToString</button>
+<span id="string"></span>
+<input type="text" id="str" placeholder="enter the string to ConvertToNumber">
+<button onclick="convertStringToNumber()">ConvertToNumber</button>
+<span id="number"></span>
+<input type="text" id="number1" placeholder="enter the number to ConvertToBoolean">
+<button onclick="convertNumberToBoolean()">ConvertToBoolean</button>
+<span id="boolean"></span>
+<input type="text" id="boolean-value" placeholder="enter the boolean to String">
+<button onclick="convertBooleanToString()">ConvertToString</button>
+<span id="string1"></span>
+    
+</body>
+
+<script src="task3.js"></script>
+</html>
