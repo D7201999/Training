@@ -1,0 +1,80 @@
+.details{
+    display: flex;
+    
+    margin-left: 1.25em;
+    width: 100%;
+    border-top:0.1em solid black;
+    border-bottom: 0.1em solid black;
+    
+}
+
+.obective,.education,.skills,.Certifications{
+    display: flex;
+    border-bottom: 0.2em solid black;
+   
+    padding: 2.3em;
+    margin-left: 1.4em;
+    padding-top: 0.7em;
+     padding-left: 0;
+}
+
+.number,.location,.gmail{
+    margin:1.25em;
+    border:none;
+    flex: 1;
+    text-align: center;
+
+    border-right: 3px solid black;
+    padding-right: 0.7em;
+    
+    
+}
+.object-head,.education-head,.skill-head,.certification-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+    border:none;
+    margin-left: 0px;
+
+   
+}
+.object-text,.education-text,.languages,.c-list{
+    margin-left: 50px;
+}
+.abilities{
+    margin-left: 150px;
+}
+.university{
+    margin-bottom: 10px;
+}
+.c-list{
+    list-style-type:none;
+}
+.c-lis{
+    margin-left: 30px;;
+}
+.name{
+    margin-left: 1.25em;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+.profession{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-style: italic;
+}
+.location{
+    border:none;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+@media only screen and(min-width:768px){
+    body{
+        font-size: 5px;
+        margin: 0px;
+    }
+}

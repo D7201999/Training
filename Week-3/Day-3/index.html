@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Validations</title>
+    <link rel="stylesheet" href="/Day-2/styles.css">
+</head>
+<style>
+
+</style>
+<body>
+    <form onsubmit="return validateCreditCardDetails()">
+    <div class="container">
+        <label>American Express Number:</label>
+     <input type="text" id='american'>
+     <p id="americanError"></p>
+     <label>Visa Card Number:</label>
+     <input type="text" id='visa'>
+     <p id="visaError"></p>
+     <label>Master card Number:</label>
+     <input type="text" id='master-card'>
+     <p id="masterError"></p>
+     <label>Discover card Number:</label>
+    <input type="text" id='discover'>
+    <p id="discoverError"></p>
+    <label>Dinners club Number:</label>
+    <input type="text" id='dinners'>
+    <p id="dinnerError"></p>
+    <label>Jcb Card Number:</label>
+    <input type="text" id='jcb'>
+    <p id="jcbError"></p>
+    <button type="submit" onclick="validateCreditCardDetails()">Submit</button>
+    </form>
+</div>
+    
+    
+    
+</body>
+<script src="index.js"></script>
+</html>
